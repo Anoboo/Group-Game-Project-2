@@ -1067,6 +1067,7 @@ GameObject:
   - component: {fileID: 1348021061}
   - component: {fileID: 1348021062}
   - component: {fileID: 1348021063}
+  - component: {fileID: 1348021064}
   m_Layer: 0
   m_Name: Game Controller
   m_TagString: GameController
@@ -1095,7 +1096,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1348021059}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3f62d9e2b1bf29e4487e2248743ae11f, type: 3}
   m_Name: 
@@ -1135,6 +1136,36 @@ MonoBehaviour:
     type: 3}
   blessedRainsSpawn: {fileID: 2091600531}
   SpawnDelay: 1
+--- !u!114 &1348021064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348021059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 849f99063bbe9f2469fb54389bb66643, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waves:
+  - name: Wave 1
+    enemy: {fileID: 3140800029703571187, guid: 72bb78bd2b83b4046a5bc2649d8d5001, type: 3}
+    count: 2
+    spawnDelay: 1
+  - name: Wave 2
+    enemy: {fileID: 3140800029703571187, guid: 72bb78bd2b83b4046a5bc2649d8d5001, type: 3}
+    count: 3
+    spawnDelay: 1.5
+  - name: Wave 3
+    enemy: {fileID: 3140800029703571187, guid: 72bb78bd2b83b4046a5bc2649d8d5001, type: 3}
+    count: 5
+    spawnDelay: 2
+  spawnPoints:
+  - {fileID: 1827805086}
+  timeBetweenWaves: 5
+  waveCountDown: 0
+  state: 2
 --- !u!1 &1371885420 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7499470107052414244, guid: f1a8ea18f8c8af446b08bc5ac0a71923,
@@ -1519,7 +1550,7 @@ GameObject:
   m_Layer: 0
   m_Name: Enemy Spawn
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1675,15 +1706,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3771062527407920, guid: 1f7ebaa36aef61e4e8be904d9a2997ec, type: 3}
+      propertyPath: m_Name
+      value: Tower
+      objectReference: {fileID: 0}
     - target: {fileID: 6703473598306600230, guid: 1f7ebaa36aef61e4e8be904d9a2997ec,
         type: 3}
       propertyPath: restartButton
       value: 
       objectReference: {fileID: 478008342}
-    - target: {fileID: 3771062527407920, guid: 1f7ebaa36aef61e4e8be904d9a2997ec, type: 3}
-      propertyPath: m_Name
-      value: Tower
-      objectReference: {fileID: 0}
     - target: {fileID: 3771062527407916, guid: 1f7ebaa36aef61e4e8be904d9a2997ec, type: 3}
       propertyPath: m_LocalPosition.x
       value: -24.18
