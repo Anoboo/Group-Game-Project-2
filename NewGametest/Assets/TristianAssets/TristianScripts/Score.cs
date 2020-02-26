@@ -27,6 +27,12 @@ public class Score : MonoBehaviour
         UpdateUI();
     }
 
+    public void BeefCakeIncreaseScore()
+    {
+        score = score + 3;
+        UpdateUI();
+    }
+
     void UpdateUI()
     {
         scoreText.text = "Score: " + score;

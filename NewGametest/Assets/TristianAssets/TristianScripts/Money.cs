@@ -35,6 +35,12 @@ public class Money : MonoBehaviour
         UpdateUI();
     }
 
+    public void BeefCakeIncreaseMoney()
+    {
+        money = money + 3;
+        UpdateUI();
+    }
+
     void UpdateUI()
     {
         moneyText.text = "Money: " + money;
