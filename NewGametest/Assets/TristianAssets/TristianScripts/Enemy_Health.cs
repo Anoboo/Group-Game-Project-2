@@ -30,7 +30,7 @@ public class Enemy_Health : MonoBehaviour
             if(enemyHealth <= 0)
             {
                 gameControllerRef.GetComponent<Score>().IncreaseScore();
-                gameControllerRef.GetComponent<Money>().MoneyCount();
+                Money.money = Money.money + 50;
                 Destroy(gameObject);
             }
         }

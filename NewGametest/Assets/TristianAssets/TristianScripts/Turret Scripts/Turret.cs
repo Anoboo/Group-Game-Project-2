@@ -70,6 +70,9 @@ public class Turret : MonoBehaviour
         {
             laserClone = Instantiate(laser, laserLocation.transform.position, transform.rotation * Quaternion.Euler(90f, 0f, 0f));
             laserClone.GetComponent<Rigidbody>().velocity = transform.forward * shootSpeed;
+
+            FindObjectOfType<AudioManager>().Play("Bullet Sound");
+
             spawnTimer = 1f;
         }
     }

@@ -5,56 +5,20 @@ using TMPro;
 
 public class Money : MonoBehaviour
 {
-    [SerializeField] private int money;
-    [SerializeField] private TextMeshProUGUI moneyText;
+    public static int money;
+    public int startMoney = 300;
 
-    // Special Move
-    public GameObject blessedRains;
-    public Transform blessedRainsSpawn;
-    private Vector3 blessedRainsLocation;
-    private GameObject blessedRainsRef;
-    public float SpawnDelay;
-    // Start is called before the first frame update
-    void Start()
+    public TextMeshProUGUI moneyText;
+
+    private void Start()
     {
-        
+        money = startMoney;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (money >= 5)
-        {
-            SpecialMove();
-        }
-    }
-
-    public void MoneyCount()
-    {
-        money = money + 1;
-        UpdateUI();
-    }
-
-    public void BeefCakeIncreaseMoney()
-    {
-        money = money + 3;
-        UpdateUI();
-    }
-
-    void UpdateUI()
+    private void Update()
     {
         moneyText.text = "Money: " + money;
     }
 
-    void SpecialMove()
-    {
-        if(Input.GetKeyDown(KeyCode.E))
-        {
-            Vector3 blessedRainsLocation = blessedRainsSpawn.position;
-            blessedRainsRef = Instantiate(blessedRains, blessedRainsLocation, transform.rotation * Quaternion.identity);
 
-            Invoke("SpecialEnemy", SpawnDelay);
-            money = money - 5;
-        }
-    }
 }

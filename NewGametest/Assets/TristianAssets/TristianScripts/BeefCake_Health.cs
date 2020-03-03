@@ -30,7 +30,7 @@ public class BeefCake_Health : MonoBehaviour
             if(beefCakehealth <= 0)
             {
                 gameControllerRef.GetComponent<Score>().BeefCakeIncreaseScore();
-                gameControllerRef.GetComponent<Money>().BeefCakeIncreaseMoney();
+                Money.money = Money.money + 100;
                 Destroy(gameObject);
             }
         }

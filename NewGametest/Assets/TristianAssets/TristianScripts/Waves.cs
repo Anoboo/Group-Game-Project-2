@@ -7,6 +7,7 @@ public class Waves : MonoBehaviour
 {
     public enum SpawnState { Spawning, Waiting, Counting };
     public TextMeshProUGUI waveNameText;
+    public TextMeshProUGUI waveCountText;
 
     [System.Serializable]
     public class Wave
@@ -27,6 +28,7 @@ public class Waves : MonoBehaviour
     [SerializeField] private float waveCountDown;
 
     private float searchCountdown = 1f;
+    private int waveCount = 1;
 
     public SpawnState state = SpawnState.Counting;
 
@@ -68,6 +70,8 @@ public class Waves : MonoBehaviour
         {
             waveCountDown -= Time.deltaTime;
         }
+
+        waveCountText.text = "Wave: " + waveCount;
     }
 
     void WaveCompleted()
@@ -85,6 +89,7 @@ public class Waves : MonoBehaviour
         else
         {
             nextWave++;
+            waveCount++;
         }
     }
 

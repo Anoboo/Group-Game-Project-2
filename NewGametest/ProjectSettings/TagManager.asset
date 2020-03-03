@@ -11,6 +11,8 @@ TagManager:
   - Turret
   - Barrier
   - 'Blessed Rain '
+  - Audio Manager
+  - Turret Node
   layers:
   - Default
   - TransparentFX
@@ -21,10 +23,10 @@ TagManager:
   - 
   - 
   - Ground
-  - Turret Area
+  - Turret Nodes
   - Enemy
   - Turret
-  - 
+  - Wall
   - 
   - 
   - 
