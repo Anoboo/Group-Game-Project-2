@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene0.unity
     guid: 40c9ab74381e3c549982b5fd6184dd4c
+  - enabled: 1
+    path: Assets/TristianAssets/TristianScenes/Title Screen.unity
+    guid: dd3d387d57ce042458cbafd44eb22f95
+  - enabled: 1
+    path: Assets/TristianAssets/TristianScenes/Alpha Build.unity
+    guid: 4d55b3a02fc21cd48bbf2f9c6d4773f1
   m_configObjects: {}

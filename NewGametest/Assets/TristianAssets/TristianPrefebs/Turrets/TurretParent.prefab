@@ -116,10 +116,10 @@ MonoBehaviour:
   range: 15
   enemyTag: Enemy
   partToRotate: {fileID: 7499470107052414265}
-  turnSpeed: 10
+  turnSpeed: 30
   laser: {fileID: 5345859055102714036, guid: ea705587a2eb6b4409ac0b35d7462b2f, type: 3}
   laserLocation: {fileID: 7499470107505258992}
-  shootSpeed: 10
+  shootSpeed: 30
 --- !u!195 &237768160119947475
 NavMeshAgent:
   m_ObjectHideFlags: 0
