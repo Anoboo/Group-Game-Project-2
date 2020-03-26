@@ -2,16 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Tower : MonoBehaviour
 {
     [SerializeField] private int towerHealth = 1;
     public GameObject restartButton;
     bool timeStop = false;
+    public GameObject gameOverScreen;
 
     // Start is called before the first frame update
     void Start()
     {
-        restartButton.SetActive(false); 
+        restartButton.SetActive(false);
+        gameOverScreen.SetActive(false);
         if(timeStop == false)
         {
             Time.timeScale = 1;
@@ -36,6 +39,7 @@ public class Tower : MonoBehaviour
             {
                 Destroy(gameObject);
                 restartButton.SetActive(true);
+                gameOverScreen.SetActive(true);
                 timeStop = true;
                 if(timeStop == true)
                 {

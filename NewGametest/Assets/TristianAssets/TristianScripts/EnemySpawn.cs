@@ -26,7 +26,7 @@ public class EnemySpawn : MonoBehaviour
     void SpawnEnemy()
     {
         Vector3 EnemyLocation = Spawn_1.position;
-        enemyRef = Instantiate(Enemy_1, EnemyLocation, transform.rotation * Quaternion.identity);
+        enemyRef = Instantiate(Enemy_1, EnemyLocation, transform.rotation * Quaternion.Euler(0f, -53.741f, 0f));
 
         Invoke("SpawnEnemy", SpawnDelay);
     }

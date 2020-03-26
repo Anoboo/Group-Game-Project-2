@@ -41,6 +41,8 @@ public class Waves : MonoBehaviour
             Debug.LogError("No spawn points referenced.");
         }
         waveCountDown = timeBetweenWaves;
+
+        FindObjectOfType<AudioManager>().Play("Background Music 2");
     }
 
     // Update is called once per frame
@@ -60,6 +62,7 @@ public class Waves : MonoBehaviour
         }
         if(waveCountDown <= 0)
         {
+            FindObjectOfType<AudioManager>().Play("Next Wave");
             StartCoroutine(WaveNameText());
             if (state != SpawnState.Spawning)
             {
@@ -146,7 +149,7 @@ public class Waves : MonoBehaviour
     {
         Debug.Log("Spawning BEEF CAKE" + _BeefCakeEnemy.name);
         Transform _sp = spawnPoints[Random.Range(0, spawnPoints.Length)];
-        Instantiate(_BeefCakeEnemy, _sp.position, transform.rotation);
+        Instantiate(_BeefCakeEnemy, _sp.position, transform.rotation * Quaternion.Euler(0f, 180f, 0f));
     }
 
     IEnumerator WaveNameText()

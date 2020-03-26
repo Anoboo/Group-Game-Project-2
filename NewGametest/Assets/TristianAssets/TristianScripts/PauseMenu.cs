@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     public GameObject ui;
+    public string LeveltoLoad = "Title Screen";
 
     private void Update()
     {
@@ -37,6 +38,6 @@ public class PauseMenu : MonoBehaviour
 
     public void Menu()
     {
-        Debug.Log("Go to menu.");
+        SceneManager.LoadScene("Title Screen");
     }
 }

@@ -24,7 +24,7 @@ public class Turret_Click_and_Control : MonoBehaviour
 
             if(Physics.Raycast (ray, out hit))
             {
-                if(hit.transform.name == "Turret")
+                if(hit.transform.tag == "Turret")
                 {
                     Debug.Log("This is a turret.");
                     turretIsClicked = true;

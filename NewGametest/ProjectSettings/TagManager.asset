@@ -13,6 +13,8 @@ TagManager:
   - 'Blessed Rain '
   - Audio Manager
   - Turret Node
+  - Test
+  - Main Level
   layers:
   - Default
   - TransparentFX

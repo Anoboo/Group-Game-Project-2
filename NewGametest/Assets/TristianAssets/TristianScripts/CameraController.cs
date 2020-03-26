@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class CameraController : MonoBehaviour
 {
+    public TextMeshProUGUI cameraED;
     private bool doMovement = true;
 
     public float panSpeed = 30f;
@@ -16,7 +18,7 @@ public class CameraController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        cameraED.text = "Camera: Enabled";
     }
 
     // Update is called once per frame
@@ -25,10 +27,12 @@ public class CameraController : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Q))
         {
             doMovement = !doMovement;
+            cameraED.text = "Camera: Enabled";
         }
 
         if (!doMovement)
         {
+            cameraED.text = "Camera: Disabled";
             return;
         }
 
