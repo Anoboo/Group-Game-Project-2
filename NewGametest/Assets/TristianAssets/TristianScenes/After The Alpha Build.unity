@@ -982,17 +982,17 @@ MonoBehaviour:
   waveCountText: {fileID: 1442037093}
   waves:
   - name: Wave 1
-    enemy: {fileID: 3140800029703571187, guid: 72bb78bd2b83b4046a5bc2649d8d5001, type: 3}
+    enemy: {fileID: 4660852772104527770, guid: 3ff2a7c8384c8c64cbe8743fadff30d4, type: 3}
     beefCake: {fileID: 0}
-    count: 5
+    count: 1
     spawnDelay: 0.5
   - name: Wave 2
-    enemy: {fileID: 3140800029703571187, guid: 72bb78bd2b83b4046a5bc2649d8d5001, type: 3}
+    enemy: {fileID: 4660852772104527770, guid: 3ff2a7c8384c8c64cbe8743fadff30d4, type: 3}
     beefCake: {fileID: 0}
     count: 10
     spawnDelay: 0.5
   - name: Wave 3
-    enemy: {fileID: 3140800029703571187, guid: 72bb78bd2b83b4046a5bc2649d8d5001, type: 3}
+    enemy: {fileID: 4660852772104527770, guid: 3ff2a7c8384c8c64cbe8743fadff30d4, type: 3}
     beefCake: {fileID: 4057181370156421951, guid: 8e034cdd43c9646499d9ed3ca11353e0,
       type: 3}
     count: 15

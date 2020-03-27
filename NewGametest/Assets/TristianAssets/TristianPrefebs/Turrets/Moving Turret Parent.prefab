@@ -202,6 +202,7 @@ GameObject:
   - component: {fileID: 7882893312441760071}
   - component: {fileID: 2861802811884299498}
   - component: {fileID: 3729813748986040991}
+  - component: {fileID: 4002148699920649302}
   m_Layer: 11
   m_Name: Moving Turret Parent
   m_TagString: Turret
@@ -324,3 +325,15 @@ MonoBehaviour:
   laser: {fileID: 5345859055102714036, guid: ea705587a2eb6b4409ac0b35d7462b2f, type: 3}
   laserLocation: {fileID: 3641718964101152819}
   shootSpeed: 30
+--- !u!114 &4002148699920649302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6905423144305492259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 061a2c2b91a72394783e5e63327ee3d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
