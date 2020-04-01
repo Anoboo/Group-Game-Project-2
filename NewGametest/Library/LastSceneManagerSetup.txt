@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/TristianAssets/TristianScenes/After The Alpha Build.unity
+- path: Assets/TristianAssets/TristianScenes/Main Level.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -19,6 +19,7 @@ public class Zombies_Attacking_Turrets : MonoBehaviour
     void Start()
     {
         InvokeRepeating("UpdateTarget", 0f, 0.5f);
+        InvokeRepeating("AttackingTurret", 0f, 3f);
     }
 
     void UpdateTarget()
@@ -63,10 +64,10 @@ public class Zombies_Attacking_Turrets : MonoBehaviour
             hasTarget = false;
         }
 
-        if (target != null && hasTarget == true)
+        /*if (target != null && hasTarget == true)
         {
-            StartCoroutine(AttakingTurret());
-        }
+            //StartCoroutine(AttakingTurret());
+        }*/
         LockOnTarget();
     }
 
@@ -89,13 +90,22 @@ public class Zombies_Attacking_Turrets : MonoBehaviour
         return target.position + turretPositionOffset;
     }
 
-    IEnumerator AttakingTurret()
+    /*IEnumerator AttakingTurret()
     {
         yield return new WaitForSeconds(5);
         MovingTurretHealth.movingTurretHealth--;
         
         Debug.Log("Health has been taken from the turret!" + MovingTurretHealth.movingTurretHealth);
 
-       Invoke("AttackingTurret", 5);
+        Invoke("AttackingTurret", 5);
+    }*/
+
+    private void AttackingTurret()
+    {
+        if (target != null && hasTarget == true)
+        {
+            MovingTurretHealth.movingTurretHealth--;
+        } 
+        Debug.Log("Health has been taken from the turret! " + MovingTurretHealth.movingTurretHealth);
     }
 }
