@@ -1,0 +1,716 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1655179229599529696
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9104958013681499134}
+  m_Layer: 0
+  m_Name: Blessed Rains Down In Africa Parent
+  m_TagString: 'Blessed Rain '
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9104958013681499134
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655179229599529696}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -60.8, y: 22.576197, z: 25.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5307439893840329674}
+  - {fileID: 5492835262354902274}
+  - {fileID: 2730804877826824268}
+  - {fileID: 2845286246158675978}
+  - {fileID: 4937592071516824718}
+  - {fileID: 400125298243664627}
+  - {fileID: 904160717662509524}
+  - {fileID: 7503173867122652939}
+  - {fileID: 6747653040301567703}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &418196165910311090
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 9104958013681499134}
+    m_Modifications:
+    - target: {fileID: 6434480023368225122, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_Name
+      value: Blessed Rain Down In Africa (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.857964
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.060123
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 20.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 033dc9cfaca8567419c17b9a5421b034, type: 3}
+--- !u!4 &2730804877826824268 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+    type: 3}
+  m_PrefabInstance: {fileID: 418196165910311090}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &528050797440768244
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 9104958013681499134}
+    m_Modifications:
+    - target: {fileID: 6434480023368225122, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_Name
+      value: Blessed Rain Down In Africa (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 22.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.060123
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 20.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 033dc9cfaca8567419c17b9a5421b034, type: 3}
+--- !u!4 &2845286246158675978 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+    type: 3}
+  m_PrefabInstance: {fileID: 528050797440768244}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2712847534727090701
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 9104958013681499134}
+    m_Modifications:
+    - target: {fileID: 6434480023368225122, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_Name
+      value: Blessed Rain Down In Africa (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.060123
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 19.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 033dc9cfaca8567419c17b9a5421b034, type: 3}
+--- !u!4 &400125298243664627 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+    type: 3}
+  m_PrefabInstance: {fileID: 2712847534727090701}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3216773836148371754
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 9104958013681499134}
+    m_Modifications:
+    - target: {fileID: 6434480023368225122, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_Name
+      value: Blessed Rain Down In Africa (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.060123
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 033dc9cfaca8567419c17b9a5421b034, type: 3}
+--- !u!4 &904160717662509524 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+    type: 3}
+  m_PrefabInstance: {fileID: 3216773836148371754}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5190644053486657525
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 9104958013681499134}
+    m_Modifications:
+    - target: {fileID: 6434480023368225122, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_Name
+      value: Blessed Rain Down In Africa (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.060123
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 033dc9cfaca8567419c17b9a5421b034, type: 3}
+--- !u!4 &7503173867122652939 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+    type: 3}
+  m_PrefabInstance: {fileID: 5190644053486657525}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7254637604842081392
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 9104958013681499134}
+    m_Modifications:
+    - target: {fileID: 6434480023368225122, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_Name
+      value: Blessed Rain Down In Africa (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.060123
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.042476
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 033dc9cfaca8567419c17b9a5421b034, type: 3}
+--- !u!4 &4937592071516824718 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+    type: 3}
+  m_PrefabInstance: {fileID: 7254637604842081392}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7606491628191142708
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 9104958013681499134}
+    m_Modifications:
+    - target: {fileID: 6434480023368225122, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_Name
+      value: Blessed Rain Down In Africa
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.857964
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.060123
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.042476
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 033dc9cfaca8567419c17b9a5421b034, type: 3}
+--- !u!4 &5307439893840329674 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+    type: 3}
+  m_PrefabInstance: {fileID: 7606491628191142708}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7787294619156440572
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 9104958013681499134}
+    m_Modifications:
+    - target: {fileID: 6434480023368225122, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_Name
+      value: Blessed Rain Down In Africa (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 23.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.060123
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.042476
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 033dc9cfaca8567419c17b9a5421b034, type: 3}
+--- !u!4 &5492835262354902274 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+    type: 3}
+  m_PrefabInstance: {fileID: 7787294619156440572}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9046611333201806889
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 9104958013681499134}
+    m_Modifications:
+    - target: {fileID: 6434480023368225122, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_Name
+      value: Blessed Rain Down In Africa (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 24.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.060123
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 033dc9cfaca8567419c17b9a5421b034, type: 3}
+--- !u!4 &6747653040301567703 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2317242346846431486, guid: 033dc9cfaca8567419c17b9a5421b034,
+    type: 3}
+  m_PrefabInstance: {fileID: 9046611333201806889}
+  m_PrefabAsset: {fileID: 0}
