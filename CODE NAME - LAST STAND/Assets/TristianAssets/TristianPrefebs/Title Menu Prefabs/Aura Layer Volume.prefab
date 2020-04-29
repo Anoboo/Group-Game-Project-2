@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   volumeShape:
-    shape: 1
+    shape: 0
     fading:
       falloffExponent: 3
       xPositiveCubeFade: 0.25
@@ -86,10 +86,10 @@ MonoBehaviour:
       space: 0
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0}
-      scale: {x: 5, y: 5, z: 5}
+      scale: {x: 1, y: 1, z: 1}
   densityInjection:
     enable: 1
-    strength: 5
+    strength: 1
     useNoiseMask: 1
     useNoiseMaskLevels: 1
     noiseMaskLevelParameters:

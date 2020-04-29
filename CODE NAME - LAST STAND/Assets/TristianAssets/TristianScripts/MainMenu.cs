@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public string LeveltoLoad = "Alpha build";
+    public string LeveltoLoad;
+    private string ControlScreen = "ControlScreen";
     public void Play()
     {
         SceneManager.LoadScene(LeveltoLoad);
@@ -14,5 +15,9 @@ public class MainMenu : MonoBehaviour
     {
         Debug.Log("Closing...");
         Application.Quit();
+    }
+    public void Controls()
+    {
+        SceneManager.LoadScene(ControlScreen);
     }
 }

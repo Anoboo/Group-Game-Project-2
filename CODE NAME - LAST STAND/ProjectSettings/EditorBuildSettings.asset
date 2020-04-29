@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/TristianAssets/TristianScenes/Title Screen.unity
     guid: dd3d387d57ce042458cbafd44eb22f95
   - enabled: 1
+    path: Assets/DanielAssets/DanielScenes/ControlScreen.unity
+    guid: dc7e807fdb0b12e439894d471c2589a2
+  - enabled: 1
     path: Assets/BrianAssets/BrianScenes/MainLevelUpdated.unity
     guid: 4dce9368e9507af478237f257419e490
   m_configObjects: {}
